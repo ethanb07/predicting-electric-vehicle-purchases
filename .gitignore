@@ -180,6 +180,10 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-/data
-/venv
-/submissions
+# Ignore all contents inside the folders
+data/*
+submissions/*
+
+# Do not ignore the .gitkeep files (keeps the folder alive in Git)
+!data/.gitkeep
+!submissions.gitkeep
