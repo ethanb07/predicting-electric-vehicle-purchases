@@ -186,4 +186,4 @@ submissions/*
 
 # Do not ignore the .gitkeep files (keeps the folder alive in Git)
 !data/.gitkeep
-!submissions.gitkeep
+!submissions/.gitkeep
